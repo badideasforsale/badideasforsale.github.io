@@ -30,7 +30,7 @@ url: "https://badideasforsale.github.io" # the base hostname & protocol for your
 github_username:  badideasforsale
 
 # Build settings
-theme: minima
+remote_theme: moonwalk 
 plugins:
   - jekyll-feed
 
