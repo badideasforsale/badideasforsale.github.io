@@ -17,4 +17,4 @@ layout: home
 </ul>
 
 <h1>About Me</h1>
-<a href="/about.html">If you're really interested.</a>
+<a href="/about">If you're really interested.</a>
