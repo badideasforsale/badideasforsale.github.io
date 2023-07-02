@@ -4,3 +4,17 @@
 
 layout: home
 ---
+
+<h1>Latest Posts</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h1>About Me</h1>
+<a href="/about.html">If you're really interested.</a>
