@@ -10,6 +10,8 @@ I do cloud security things. And cloud things. And security things. And things. B
 
 Currently: Security @ [Temporal](https://temporal.io), Advisor @ [Common Fate](https://www.commonfate.io)
 
+Social Media: [@spaceinvader@social.securitytheater.net](https://social.securitytheater.net/@spaceinvader)
+
 Nothing here is guaranteed to be correct, accurate, or helpful.
 
 ## Work History
