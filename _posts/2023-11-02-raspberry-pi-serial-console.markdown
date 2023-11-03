@@ -2,7 +2,8 @@
 layout: post
 title:  "Raspberry Pi Serial Monitor"
 date: 2023-11-02  10:30:00 -0700
-categories: computers raspberry-pi serial
+tags: computers raspberry-pi serial
+categories: computers
 ---
 
 # Raspberry Pi Serial Monitor

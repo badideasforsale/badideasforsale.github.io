@@ -2,7 +2,8 @@
 layout: post
 title:  "Using Secretive for Git"
 date: 2023-11-03  10:30:00 -0700
-categories: git secretive computers
+tags: git secretive computers
+categories: computers
 ---
 
 # Using Secretive for Git
