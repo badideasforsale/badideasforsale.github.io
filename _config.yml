@@ -18,15 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
 title: 👾 Space Invader Homepage 👾
-email: public@brandonsherman.com 
+email: blog@brandonsherman.com 
 description: >- # this means to ignore newlines until "baseurl:"
   I need a place to put stuff on the internet, because I miss the 
   old internet where blogs were useful and Google was actually
   good at surfacing that useful content. I'm very old.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://badideasforsale.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-favicon: "<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>">" # not sure if this actually works
+#favicon: "<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👾</text></svg>">" # not sure if this actually works
 github_username:  badideasforsale
 
 # Build settings
