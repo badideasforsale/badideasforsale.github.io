@@ -1,16 +1,15 @@
 ---
 layout: post
 title:  "Updating Supermicro BIOS and IPMI From TrueNAS SCALE"
-date: 2024-04-02 10:30:00 -0700
+date: 2025-04-02 10:30:00 -0700
 tags: computers freenas truenas bios ipmi
 categories: linux
 ---
 
 # Steps to Update the BIOS/IPMI on a SuperMicro board
-
 In the process of building a new TrueNAS SCALE machine (more on this soon), I needed to upgrade the firmware on the "new" motherboard. It's actually an old Supermicro X11 series board from eBay, but for USD$220 I get a 45W TDP Xeon and 64GB of ECC RAM. Good enough, except for one thing: the BIOS was from 2017. There's been a lot of fixes in the last eight years. Thankfully, things have changed since I last had to reflash a BIOS. No more floppy disks, for one. It's actually shockingly easy to update these boards from Linux. In the interest of helping myself remember and maybe some other people, here are the steps to follow.
 
-This assumes an install of TrueNAS SCALE (RIP CORE) with SSH access enabled.
+This assumes an install of TrueNAS SCALE (RIP CORE) with SSH access enabled. SSH no longer enabled by default, so go flip those switches. I'm slowly working my way through a post tracking the differences and considerations when upgrading.
 
 # HOWTO Update BIOS
 
