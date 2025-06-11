@@ -337,7 +337,7 @@ Usage: IPMICFG params (Example: IPMICFG -m 192.168.1.123)
 
 ## Setup
 
-First things first. If you just followed my instructions above, you'll need to recopy the BIOS/IPMI file over to /tmp and remount it without the noexec flag. Easy stuff.
+First things first. If you just followed my instructions above, you'll need to recopy the BIOS/IPMI file over to `/tmp` and remount it without the noexec flag. Easy stuff.
 
 ## Users
 List the users currently active in the IPMI system with:
@@ -370,7 +370,7 @@ truenas%
 Once you've reset the password, use a web browser to log in to IPMI. Head to the maintenance section and upload the new IPMI file. This will also take awhile to run, but does not incur system downtime.
 
 ### References
-https://major.io/p/update-supermicro-bios-firmware-from-linux/#update-the-bmc
+[https://major.io/p/update-supermicro-bios-firmware-from-linux/#update-the-bmc](https://major.io/p/update-supermicro-bios-firmware-from-linux/#update-the-bmc)
 
 ### Wrapup
 
