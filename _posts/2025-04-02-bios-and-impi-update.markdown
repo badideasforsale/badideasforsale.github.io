@@ -85,7 +85,7 @@ This _will_ be undone once you restart the system (and everything in `/tmp` will
 #tmpfs on /tmp type tmpfs (rw,nosuid,nodev,noexec,inode64)
 
 $ sudo ./sum
-$ sudo: unable to execute ./sum: Permission denied
+sudo: unable to execute ./sum: Permission denied
 $ sudo mount -o remount,exec /tmp
 $ sudo ./sum
 << Help text truncated >>
@@ -123,7 +123,7 @@ WARNING:Must power cycle or restart the system for the changes to take effect!
 ```
 
 ## Nearly done
-Just like the tool says, you must power cycle the system for the new BIOS to be used. Take a deep breath, it's out of your hands now. But resist the easy temptation to reboot, for temptation leads the true follower astray and into the hands of arcane electrical gremlins who desire to frustrate you. No, stay strong my friends, and instead be a hero. Power off the system, count to thirty, and then press the power button. We don't want residual power to have any chance of causing old, no longer valid, pathways to remain available to execution. This is something I was taught as a young systems whisperer, and so now it is my duty to encourage you.
+Just like the tool says, you must power cycle the system for the new BIOS to be used. Take a deep breath, it's out of your hands now. But resist the easy temptation to reboot, for temptation leads the true follower astray and into the hands of arcane electrical gremlins who desire to frustrate you. No, stay strong my friends, and instead be a hero. **Power off the system, count to thirty, and then press the power button.** We don't want residual power to have any chance of causing old, no longer valid, pathways to remain available to execution. This is something I was taught as a young systems whisperer, and so now it is my duty to encourage you. Does it matter? The wisdom of the ancients is often full of mistakes. But at least this one is harmless.
 
 ```
 sudo poweroff
