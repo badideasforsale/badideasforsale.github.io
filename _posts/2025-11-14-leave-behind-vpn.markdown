@@ -170,9 +170,4 @@ Next, leave it running for a couple days. Connect while out and about from a mob
 SSH is made easier when you don't have to care about keys. Your hardware device just does it. I wrote a post awhile back about [using Secretive for SSH keys](https://brandonsherman.com/computers/2023/11/03/using-secretive-for-git.html).
 
 # Conclusion
-This is the sort of thing you can easily do, then box up and mail to someone. It’ll just work once connected to power. 
-
-
-https://www.zgrs.ca/post/tailescale-to-bypass-censorship/
-
-https://vpncentral.com/wireguard-obfuscated/
+This is the sort of thing you can easily do, then box up and mail to someone you trust to plug a couple wires in. It’ll just work once connected to power, and then your packets can come from somewhere else.
